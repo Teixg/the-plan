@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>the Plan</title>
+    <link rel="icon" type="image/png" href="assets/icons/bank.png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="branding">
+        <img src="assets/icons/bank.png" alt="" class="logo">
+        <h1>the Plan</h1>
+    </header>
+    <nav aria-label="Rutinas por día">
+        <button type="button" data-dia="lunes" aria-controls="lunes" aria-pressed="false">Lunes</button>
+        <button type="button" data-dia="martes" aria-controls="martes" aria-pressed="false">Martes</button>
+        <button type="button" data-dia="miercoles" aria-controls="miercoles" aria-pressed="false">Miércoles</button>
+        <button type="button" data-dia="jueves" aria-controls="jueves" aria-pressed="false">Jueves</button>
+        <button type="button" data-dia="viernes" aria-controls="viernes" aria-pressed="false">Viernes</button>
+        <button type="button" data-dia="sabado" aria-controls="sabado" aria-pressed="false">Sábado</button>
+    </nav>
+
+    <div class="bienvenida">
+        <img src="assets/Timmy.png" alt="Timmy te espera para empezar">
+        <aside class="bocadillo" aria-label="Mensaje de Timmy">
+            <span class="bocadillo-nombre">Timmy</span>
+            <p aria-live="polite"><span class="bocadillo-linea-principal">¿Lista para empezar?</span><br><span class="bocadillo-linea-secundaria">¡Selecciona un día!</span></p>
+        </aside>
+    </div>
+
+<section id="lunes" class="dias" hidden>
+    <h2>Lunes</h2>
+    <p>BÍCEPS · TRÍCEPS · HOMBROS · ESPALDA</p>
+    <ul>
+        <li>Curl de bíceps — 3×10-12</li>
+        <li>Curl martillo — 3×10-12</li>
+        <li>Press de hombros — 3×8-12</li>
+        <li>Elevaciones laterales — 3×12-15</li>
+        <li>Extensión de tríceps sobre cabeza — 3×10-12</li>
+        <li>Flexiones cerradas — 2×8-12</li>
+        <li>Remo a una mano — 3×10-12/lado</li>
+    </ul>
+</section>
+<section id="martes" class="dias" hidden>
+        <h2>Martes</h2>
+    <p>CUÁDRICEPS · ISQUIOTIBIALES · GLÚTEOS · GEMELOS</p>
+    <ul>
+        <li>Sentadilla goblet — 4×10-12</li>
+        <li>Peso muerto rumano — 3×10-12</li>
+        <li>Hip thrust — 4×12-15</li>
+        <li>Zancadas atrás — 3×10/pierna</li>
+        <li>Curl femoral con banda — 3×12-15</li>
+        <li>Abducción con banda — 3×15-20</li>
+        <li>Elevación de gemelos — 3×15-20</li>
+    </ul>
+</section>
+<section id="miercoles" class="dias" hidden>
+    <h2>Miércoles</h2>
+    <p>CORE · BÍCEPS · TRÍCEPS</p>
+    <ul>
+        <li>Plancha frontal — 3×30-45 s</li>
+        <li>Dead bug — 3×10/lado</li>
+        <li>Crunch inverso — 3×12-15</li>
+        <li>Plancha lateral — 2×30 s/lado</li>
+        <li>Curl concentrado — 3×10-12/brazo</li>
+        <li>Curl con banda — 2×12-15</li>
+        <li>Patada de tríceps — 3×12/brazo</li>
+        <li>Extensión de tríceps con banda — 2×12-15</li>
+    </ul>
+</section>
+<section id="jueves" class="dias" hidden>
+    <h2>Jueves</h2>
+    <p>DESCANSO</p>
+    <p>Paseo opcional · movilidad · recuperación</p>
+</section>
+<section id="viernes" class="dias" hidden>  
+    <h2>Viernes</h2>
+    <p>GLÚTEOS · CORE · ESTABILIDAD</p>
+    <ul>
+        <li>Hip thrust — 3×12-15</li>
+        <li>Puente con banda — 3×15-20</li>
+        <li>Zancadas atrás — 3×10/pierna</li>
+        <li>Patada de glúteo con banda — 3×12-15</li>
+        <li>Abducción con banda — 3×15-20</li>
+        <li>Plancha frontal — 3×40 s</li>
+        <li>Crunch inverso — 3×12-15</li>
+        <li>Plancha lateral — 3×30 s/lado</li>
+        <li>Pallof press — 3×12/lado</li>
+    </ul>
+</section>
+<section id="sabado" class="dias" hidden>
+    <h2>Sábado</h2>
+    <p>FUERZA GENERAL · PECHO · ESPALDA</p>
+    <ul>
+        <li>Press de pecho en suelo — 3×10-12</li>
+        <li>Remo a una mano — 3×12/lado</li>
+        <li>Sentadilla goblet — 2×12</li>
+        <li>Press de hombros — 2×10-12</li>
+        <li>Peso muerto rumano — 2×12</li>
+        <li>Curl de bíceps — 2×12</li>
+        <li>Extensión de tríceps con banda — 2×12-15</li>
+    </ul>
+
+
+
+</section>
+</body>
+</html>
