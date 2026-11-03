@@ -11,6 +11,21 @@ const enlacesEjercicios = {
     "Extensión de tríceps sobre cabeza": "https://www.youtube.com/results?search_query=extension+triceps+por+encima+cabeza+mancuerna",
     "Flexiones cerradas": "https://www.youtube.com/results?search_query=flexiones+cerradas+triceps+tecnica",
     "Remo a una mano": "https://www.youtube.com/results?search_query=remo+mancuerna+una+mano+tecnica",
+    "Sentadilla goblet": "https://www.youtube.com/results?search_query=sentadilla+goblet+mancuerna+tecnica",
+    "Peso muerto rumano": "https://www.youtube.com/results?search_query=peso+muerto+rumano+mancuernas+tecnica",
+    "Hip thrust": "https://www.youtube.com/results?search_query=hip+thrust+en+sofa+en+casa+tecnica",
+    "Zancadas atrás": "https://www.youtube.com/results?search_query=zancadas+hacia+atras+mancuernas+tecnica",
+    "Curl femoral con banda": "https://www.youtube.com/results?search_query=curl+femoral+banda+elastica+en+casa",
+    "Abducción con banda": "https://www.youtube.com/results?search_query=abduccion+cadera+banda+elastica+tecnica",
+    "Elevación de gemelos": "https://www.youtube.com/results?search_query=elevacion+gemelos+mancuernas+tecnica",
+    "Plancha frontal": "https://www.youtube.com/results?search_query=plancha+abdominal+tecnica+correcta",
+    "Dead bug": "https://www.youtube.com/results?search_query=dead+bug+ejercicio+abdominal+tecnica",
+    "Crunch inverso": "https://www.youtube.com/results?search_query=crunch+inverso+tecnica",
+    "Plancha lateral": "https://www.youtube.com/results?search_query=plancha+lateral+tecnica",
+    "Curl concentrado": "https://www.youtube.com/results?search_query=curl+concentrado+mancuerna+tecnica",
+    "Curl con banda": "https://www.youtube.com/results?search_query=curl+biceps+banda+elastica",
+    "Patada de tríceps": "https://www.youtube.com/results?search_query=patada+triceps+mancuerna+tecnica",
+    "Extensión de tríceps con banda": "https://www.youtube.com/results?search_query=extension+triceps+banda+elastica",
 };
 
 document.querySelectorAll(".dias li").forEach((ejercicio) => {
