@@ -78,6 +78,73 @@ nav button:focus-visible {
     outline-offset: 2px;
 }
 
+.racha {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 0.25rem 0.75rem;
+    margin-bottom: 1.25rem;
+    padding: 0.85rem 1rem;
+    border: 1px solid #e8dfd2;
+    border-radius: 0.75rem;
+    background: #fff9e6;
+    color: #6d5f51;
+}
+
+.racha-icono {
+    width: 3rem;
+    height: 3rem;
+    grid-row: span 2;
+    border-radius: 0.6rem;
+}
+
+.racha-info h2 {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.racha-info p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.racha-info strong {
+    color: #b07f2f;
+    font-size: 1.25rem;
+}
+
+#racha-boton {
+    min-height: 44px;
+    grid-column: 1 / -1;
+    padding: 0.55rem 0.8rem;
+    border: 0;
+    border-radius: 0.6rem;
+    background: #6d5f51;
+    color: #fff9e6;
+    font: inherit;
+    font-weight: 600;
+    cursor: pointer;
+    touch-action: manipulation;
+}
+
+#racha-boton:disabled {
+    background: #d7d0c7;
+    color: #6d5f51;
+    cursor: not-allowed;
+}
+
+#racha-boton:focus-visible {
+    outline: 3px solid #79b99a;
+    outline-offset: 2px;
+}
+
+#racha-mensaje {
+    grid-column: 1 / -1;
+    margin: 0;
+    color: #806f52;
+    font-size: 0.85rem;
+}
+
 .bienvenida {
     display: flex;
     flex-direction: column;
@@ -259,6 +326,24 @@ nav button:focus-visible {
 
     nav {
         grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .racha {
+        grid-template-columns: auto 1fr auto;
+        gap: 0.25rem 0.75rem;
+    }
+
+    .racha-icono {
+        grid-row: 1 / span 2;
+    }
+
+    #racha-boton {
+        grid-column: 3;
+        grid-row: 1 / span 2;
+    }
+
+    #racha-mensaje {
+        grid-column: 2;
     }
 
     .dias {
